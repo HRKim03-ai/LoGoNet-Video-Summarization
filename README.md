@@ -4,7 +4,8 @@
 
 ## 📋 프로젝트 개요
 
-본 프로젝트는 MR.HiSum 데이터셋을 사용하여 4가지 비디오 요약 모델(CSTA, VideoSAGE, EDSNet, LoGoNet)을 구현하고 성능을 비교합니다. 특히 **LoGoNet**이라는 새로운 하이브리드 아키텍처를 제안하여 최고 성능을 달성했습니다.
+본 프로젝트는 MR.HiSum 데이터셋을 사용해 4가지 비디오 요약 모델(CSTA, VideoSAGE, EDSNet, LoGoNet)을 구현하고 동일한 설정에서 성능을 비교합니다.
+LoGoNet은 Local–Global 하이브리드 구조를 제안하며, 본 레포에서 구현한 베이스라인들 기준으로 순위 상관계수(Kendall/Spearman)에서 가장 높은 성능을 보였습니다.
 
 ## 🎯 주요 성과
 
